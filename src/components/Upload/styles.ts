@@ -4,7 +4,6 @@ import { Person } from '@styled-icons/ionicons-sharp/Person'
 import { Edit } from '@styled-icons/fluentui-system-regular/Edit'
 import { DeleteOutline } from '@styled-icons/material-twotone/DeleteOutline'
 import { RemoveRedEye } from '@styled-icons/material/RemoveRedEye'
-import uploadSVG from './upload.svg'
 
 export const Text = styled.div`
   font-family: 'Poppins', sans-serif;
@@ -69,7 +68,7 @@ export const MultipleWrapper = styled.div`
 `
 
 export const UploadIcon = styled.img.attrs({
-  src: uploadSVG
+  src: "https://bus.valora.cc/icons/upload.svg"
 })`
   max-width: 100px;
 `

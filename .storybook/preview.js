@@ -1,0 +1,22 @@
+import { ThemeProvider } from 'styled-components'
+import React from 'react'
+import { addDecorator } from '@storybook/react';
+import theme from '../src/styles/theme'
+import GlobalStyle from '../src/styles/global'
+
+addDecorator(storyFn => (
+  <ThemeProvider theme={theme}>
+    <GlobalStyle />
+    {storyFn()}
+  </ThemeProvider>
+));
+
+export const parameters = {
+  actions: { argTypesRegex: "^on[A-Z].*" },
+  controls: {
+    matchers: {
+      color: /(background|color)$/i,
+      date: /Date$/,
+    },
+  },
+}

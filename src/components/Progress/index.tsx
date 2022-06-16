@@ -3,7 +3,6 @@ import {
   CircularProgressbarWithChildren,
   buildStyles
 } from 'react-circular-progressbar'
-import 'react-circular-progressbar/dist/styles.css'
 import * as S from './styles'
 export * from './styles'
 

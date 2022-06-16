@@ -46,6 +46,14 @@ ou
 yarn add valora-ui-kit
 ```
 
+## Inclua o CSS
+
+inclua no arquivo principal da aplicação os seguintes css
+```js
+import 'react-circular-progressbar/dist/styles.css'
+import "antd/dist/antd.css";
+```
+
 
 ## Componentes que não aparecerção no Storybook
 

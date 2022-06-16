@@ -1,4 +1,3 @@
-import "antd/dist/antd.css";
 const primaryColor = '#7cafb0'
 const primaryHoverColor = '#BDC6D2'
 const errorColor = '#DC4357'

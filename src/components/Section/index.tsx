@@ -1,5 +1,5 @@
 import * as S from './styles'
-
+import React from 'react'
 export type SectionTypes = {
   title: string
   description?: string

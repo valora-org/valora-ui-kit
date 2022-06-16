@@ -1,6 +1,6 @@
 {
   "name": "valora-ui-kit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "license": "MIT",
   "repository": {
@@ -13,7 +13,8 @@
   },
   "scripts": {
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "build": "tsc -p ."
   },
   "dependencies": {
     "styled-components": "^5.3.5"

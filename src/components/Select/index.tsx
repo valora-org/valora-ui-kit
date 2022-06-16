@@ -1,10 +1,5 @@
-/* eslint-disable prettier/prettier */
-/* eslint-disable @typescript-eslint/no-unused-vars */
-
-import { useState, useEffect, useCallback } from 'react'
+import React, { useState, useEffect, useCallback } from 'react'
 import { useDebounce } from '../../hooks/useDebounce'
-// import { Api } from 'services/api'
-// import { setHeaderApiToken } from 'utils/helpers/setHeaderApiToken'
 import * as S from './styles'
 import { removeSpecialCharactersAndBlank, randomKey } from '../../utils/helpers'
 import * as T from './types'
@@ -389,7 +384,7 @@ const Select = ({
           {!!label && <S.Label htmlFor={identifier}>{label}</S.Label>}
           {!!example && <S.Example>{example}</S.Example>}
         </S.Title>
-        <S.Badge
+        <S.VLBadge
           // contador de itens selecionados
           count={counter}
           overflowCount={99999}
@@ -441,7 +436,7 @@ const Select = ({
               ))}
             </S.Select>
           </S.InputWrapper>
-        </S.Badge>
+        </S.VLBadge>
         {!!error && <S.Error>{error}</S.Error>}
         {developerMode_ShowAnExampleEndpoint && (
           <S.Error>
@@ -459,7 +454,7 @@ const Select = ({
         {!!label && <S.Label htmlFor={identifier}>{label}</S.Label>}
         {!!example && <S.Example>{example}</S.Example>}
       </S.Title>
-      <S.Badge
+      <S.VLBadge
         // contador de itens selecionados
         count={counter}
         overflowCount={99999}
@@ -504,7 +499,7 @@ const Select = ({
               ))}
           </S.Select>
         </S.InputWrapper>
-      </S.Badge>
+      </S.VLBadge>
       {!!captionMessage && (
         <S.CaptionMessage>{captionMessage}</S.CaptionMessage>
       )}

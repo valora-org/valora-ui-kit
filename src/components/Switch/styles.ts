@@ -17,7 +17,7 @@ export const Wrapper = styled.div`
   }
 `
 
-export const Switch = styled(VLSwitch)``
+export const Switch: typeof VLSwitch = styled(VLSwitch)``
 
 export const Label = styled.p<{ color: string }>`
   font-size: 1.25rem;

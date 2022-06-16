@@ -1,7 +1,7 @@
 import { screen } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { renderWithTheme } from '../../utils/tests'
-
+import React from 'react'
 import Radio from '.'
 
 const fn = jest.fn()

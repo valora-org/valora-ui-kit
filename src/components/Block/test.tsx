@@ -1,4 +1,5 @@
-import theme from 'styles/theme'
+import theme from '../../styles/theme'
+import React from 'react'
 import { screen } from '@testing-library/react'
 import { renderWithTheme } from '../../utils/tests'
 import Block from '.'

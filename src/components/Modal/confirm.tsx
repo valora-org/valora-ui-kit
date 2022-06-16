@@ -1,4 +1,5 @@
 import ReactDOM from 'react-dom'
+import React from 'react'
 import Modal, { ModalTypes } from '.'
 
 export default function confirm({

@@ -243,7 +243,7 @@ export const Wrapper = styled.div`
   `}
 `
 
-export const Table = styled(AntdTable)`
+export const Table: typeof AntdTable = styled(AntdTable)`
   position: relative;
 `
 

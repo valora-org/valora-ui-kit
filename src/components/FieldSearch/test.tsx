@@ -1,7 +1,7 @@
 import { fireEvent, waitFor } from '@testing-library/react'
 import { cleanup } from '@testing-library/react'
 import { renderWithTheme } from '../../utils/tests'
-
+import React from 'react'
 import FieldSearch from '.'
 
 const fn = jest.fn()

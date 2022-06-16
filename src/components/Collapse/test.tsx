@@ -1,6 +1,6 @@
 import { renderWithTheme } from '../../utils/tests'
 import { cleanup } from '@testing-library/react'
-
+import React from 'react'
 import Collapse from '.'
 
 /** yarn test src/components/Collapse/test.tsx  */

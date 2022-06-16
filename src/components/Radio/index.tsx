@@ -5,7 +5,7 @@ import {
   useCallback,
   memo
 } from 'react'
-
+import React from 'react'
 import * as S from './styles'
 
 type RadioValue = string | ReadonlyArray<string> | number

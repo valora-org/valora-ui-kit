@@ -2,6 +2,7 @@
 import { useState, useEffect, useRef } from 'react'
 import { useDebounce, EventType } from '../../hooks/useDebounce'
 import * as S from './styles'
+import React from 'react'
 
 export type FieldSearchTypes = {
   onSearch?: (search: string | number) => void

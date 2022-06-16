@@ -1,4 +1,5 @@
 import * as S from './styles'
+import React from 'react'
 export * as Styles from './styles'
 import VlTooltip from '../../Tooltip'
 

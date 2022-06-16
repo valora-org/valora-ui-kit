@@ -1,3 +1,4 @@
+import React from 'react'
 import { LegendProps } from 'recharts'
 import * as S from './styles'
 

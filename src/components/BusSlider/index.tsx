@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react'
+import React, { useState, useEffect, useCallback } from 'react'
 import { Slider } from 'antd'
 import { style, StyleBusSlider, SliderLabel } from './helper'
 import * as S from './styles'

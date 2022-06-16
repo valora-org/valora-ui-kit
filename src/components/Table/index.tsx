@@ -1,6 +1,6 @@
 import { Key } from 'antd/lib/table/interface'
 import Loading from '../Loading'
-import { useState, useEffect, useCallback } from 'react'
+import React, { useState, useEffect, useCallback } from 'react'
 import { useDebounce } from '../../hooks/useDebounce'
 import * as S from './styles'
 export * as TableStyle from './styles'

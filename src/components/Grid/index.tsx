@@ -1,4 +1,5 @@
 import * as S from './styles'
+import React from 'react'
 
 type FieldsProps = {
   name: string

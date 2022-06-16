@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react'
+import React, { useState, useEffect, useCallback } from 'react'
 import * as S from './styles'
 import { Upload as AntdUpload, Modal, Button } from 'antd'
 import ImgCrop from 'antd-img-crop'

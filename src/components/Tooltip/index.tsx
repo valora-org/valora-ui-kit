@@ -1,4 +1,4 @@
-import { useEffect, useState, useRef } from 'react'
+import React, { useEffect, useState, useRef } from 'react'
 import useOnClickOutside from '../../hooks/useOnOutsideClick'
 import * as S from './styles'
 

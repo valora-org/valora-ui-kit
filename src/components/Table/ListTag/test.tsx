@@ -1,6 +1,6 @@
-import { renderWithTheme } from '../../utils/tests'
+import { renderWithTheme } from '../../../utils/tests'
 import { cleanup } from '@testing-library/react'
-
+import React from 'react'
 import ListTag from '.'
 
 /** yarn test src/components/ListTag/test.tsx  */

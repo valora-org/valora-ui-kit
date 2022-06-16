@@ -2,6 +2,7 @@ import * as S from './styles'
 import { Spin } from 'antd'
 import { LoadingOutlined } from '@ant-design/icons'
 import { CSSProperties } from 'react'
+import React from 'react'
 
 const antIcon = (
   <LoadingOutlined style={{ fontSize: 30, color: '#7CAFB0' }} spin />

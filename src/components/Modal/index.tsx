@@ -1,5 +1,5 @@
 import { Modal as AntdModal } from 'antd'
-import { useEffect } from 'react'
+import React, { useEffect } from 'react'
 export { default as confirm } from './confirm'
 
 export type ModalTypes = {

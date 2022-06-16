@@ -1,6 +1,6 @@
 import * as S from './styles'
 export * from './styles'
-
+import React from 'react'
 export type LineColors = 'primary' | 'secondary'
 
 export type HeadingProps = {

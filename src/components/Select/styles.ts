@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components'
-import { Select as AntdSelect, Badge as AntdBadge } from 'antd'
+import { Select as AntdSelect, Badge } from 'antd'
 import { ArrowIosDownwardOutline } from '@styled-icons/evaicons-outline/ArrowIosDownwardOutline'
 import { LoadingOutlined } from '@ant-design/icons'
 export const { Option } = AntdSelect
@@ -15,7 +15,7 @@ export const Select = styled(AntdSelect)`
   font-size: 14px;
 `
 
-export const Badge = styled(AntdBadge)`
+export const VLBadge: typeof Badge = styled(Badge)`
   width: 100%;
   font-size: 16px;
 `

@@ -1,5 +1,5 @@
-import { renderWithTheme } from 'utils/tests/helpers'
-
+import { renderWithTheme } from '../../utils/tests'
+import React from 'react'
 import Tabs from '.'
 
 const handleClickMock = jest.fn()

@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import moment from 'moment'
 import * as S from './styles'
 import { testDefaultDate, getActualDateTime } from '../../utils/helpers'

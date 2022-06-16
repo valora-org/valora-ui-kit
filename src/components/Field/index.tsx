@@ -1,4 +1,4 @@
-import { useState, InputHTMLAttributes, useEffect, useCallback } from 'react'
+import React, { useState, InputHTMLAttributes, useEffect, useCallback } from 'react'
 import * as S from './styles'
 
 export type FieldProps = {

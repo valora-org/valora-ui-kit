@@ -1,4 +1,4 @@
-import { useState, InputHTMLAttributes, useEffect } from 'react'
+import React, { useState, InputHTMLAttributes, useEffect } from 'react'
 
 import * as S from './styles'
 

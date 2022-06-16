@@ -1,5 +1,5 @@
 import { SwitchSize } from 'antd/lib/switch'
-import { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import * as S from './styles'
 
 export type SwitchTypes = {

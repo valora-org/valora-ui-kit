@@ -1,10 +1,10 @@
 import styled, { css } from 'styled-components'
-import { VlTooltipTypes } from '.'
+import { TooltipTypes } from '.'
 import { InfoCircle } from '@styled-icons/boxicons-regular'
 
 type TooltipType = {
   open: boolean
-} & Omit<VlTooltipTypes, 'label' | 'open'>
+} & Omit<TooltipTypes, 'label' | 'open'>
 
 export const Wrapper = styled.div<{ fullWidth?: boolean }>`
   position: relative;

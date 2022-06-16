@@ -4,6 +4,7 @@ import {
   DefaultTheme,
   GlobalStyleComponent
 } from 'styled-components'
+import "antd/dist/antd.css";
 import antDesignGlobal from './antDesign.global'
 
 type GlobalStylesProps = {

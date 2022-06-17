@@ -1,5 +1,5 @@
 import { Story, Meta } from '@storybook/react/types-6-0'
-import Upload, { UploadTypes } from '../src/components/Upload'
+import { Upload, UploadTypes } from '../src/components/Upload'
 
 export default {
   title: 'Upload',

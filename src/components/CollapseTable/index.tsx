@@ -87,4 +87,4 @@ const CollapseTable = ({
   )
 }
 
-export default CollapseTable
+export {CollapseTable}

@@ -22,7 +22,7 @@ export type LoadingSpinTypes = {
   spinOptions?: SpinTypes
 }
 
-const LoadingSpin = ({
+const Loading = ({
   height = 0,
   fullSpace = false,
   center = false,
@@ -49,4 +49,4 @@ const LoadingSpin = ({
   )
 }
 
-export default LoadingSpin
+export {Loading}

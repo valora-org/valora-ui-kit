@@ -75,4 +75,4 @@ const Tooltip = ({
   )
 }
 
-export default Tooltip
+export {Tooltip}

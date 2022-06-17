@@ -20,7 +20,7 @@ export type SliderProps = {
   tooltipVisible?: boolean
 } & InputHTMLAttributes<HTMLInputElement>
 
-const Slider2 = ({
+const Slider = ({
   label,
   labelFor = 'rangeInput',
   error,
@@ -86,4 +86,4 @@ const Slider2 = ({
   )
 }
 
-export default Slider2
+export  {Slider}

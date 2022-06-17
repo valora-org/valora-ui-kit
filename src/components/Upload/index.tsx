@@ -180,4 +180,4 @@ const Upload = ({
   )
 }
 
-export default Upload
+export {Upload}

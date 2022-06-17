@@ -1,5 +1,5 @@
 import { Story, Meta } from '@storybook/react/types-6-0'
-import Table, { TableTypes } from '../src/components/Table'
+import { Table, TableTypes } from '../src/components/Table'
 
 const args: TableTypes = {
   is_superuser: true,

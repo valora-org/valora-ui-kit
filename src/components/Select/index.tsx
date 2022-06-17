@@ -518,4 +518,4 @@ const Select = ({
   )
 }
 
-export default Select
+export {Select}

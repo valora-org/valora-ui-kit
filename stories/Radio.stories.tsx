@@ -1,10 +1,10 @@
 import { Story, Meta } from '@storybook/react/types-6-0'
 import { useState } from 'react'
-import Radio2, { RadioProps } from '../src/components/Radio'
+import { Radio, RadioProps } from '../src/components/Radio'
 
 export default {
   title: 'Radio',
-  component: Radio2,
+  component: Radio,
   parameters: {
     layout: 'fullscreen',
     backgrounds: {
@@ -19,7 +19,7 @@ export default {
 export const Default: Story<RadioProps> = (args) => (
   <div style={{ display: 'flex' }}>
     <div style={{ padding: 10 }}>
-      <Radio2
+      <Radio
         title="Label"
         label="primeiro"
         labelFor="primeiro"
@@ -39,7 +39,7 @@ export const Double: Story<RadioProps> = (args) => {
   return (
     <div style={{ display: 'flex' }}>
       <div style={{ padding: 10 }}>
-        <Radio2
+        <Radio
           title="Label"
           label="primeiro"
           labelFor="primeiro"
@@ -53,7 +53,7 @@ export const Double: Story<RadioProps> = (args) => {
         />
       </div>
       <div style={{ padding: 10 }}>
-        <Radio2
+        <Radio
           label="segundo"
           labelFor="segundo"
           id="segundo"
@@ -74,7 +74,7 @@ export const Triple: Story<RadioProps> = (args) => {
   return (
     <div style={{ display: 'flex' }}>
       <div style={{ padding: 10 }}>
-        <Radio2
+        <Radio
           title="Label"
           label="primeiro"
           labelFor="primeiro"
@@ -88,7 +88,7 @@ export const Triple: Story<RadioProps> = (args) => {
         />
       </div>
       <div style={{ padding: 10 }}>
-        <Radio2
+        <Radio
           label="segundo"
           labelFor="segundo"
           id="segundo"
@@ -101,7 +101,7 @@ export const Triple: Story<RadioProps> = (args) => {
         />
       </div>
       <div style={{ padding: 10 }}>
-        <Radio2
+        <Radio
           label="terceiro"
           labelFor="terceiro"
           id="terceiro"

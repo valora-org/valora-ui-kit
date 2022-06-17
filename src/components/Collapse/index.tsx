@@ -35,4 +35,4 @@ const Collapse = ({ header, children, onOpen, open }: CollapseTypes) => {
   )
 }
 
-export default Collapse
+export  {Collapse}

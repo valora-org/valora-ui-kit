@@ -1,6 +1,6 @@
 import React from 'react'
 import { Story, Meta } from '@storybook/react/types-6-0'
-import Chart, { ChartProps } from '../src/components/Chart'
+import { Chart, ChartProps } from '../src/components/Chart'
 
 export default {
   title: 'Charts',

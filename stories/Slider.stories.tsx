@@ -1,6 +1,6 @@
 import { Story, Meta } from '@storybook/react/types-6-0'
 
-import Slider, { SliderProps } from '../src/components/Slider'
+import { Slider, SliderProps } from '../src/components/Slider'
 
 export default {
   title: 'Slider',

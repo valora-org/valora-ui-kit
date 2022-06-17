@@ -1,5 +1,5 @@
 import { Story, Meta } from '@storybook/react/types-6-0'
-import Grid, { GridType } from '../src/components/Grid'
+import { Grid, GridType } from '../src/components/Grid'
 
 export default {
   title: 'Grid',

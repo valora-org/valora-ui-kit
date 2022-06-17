@@ -26,4 +26,4 @@ const NumberCard = ({
   )
 }
 
-export default NumberCard
+export {NumberCard}

@@ -90,4 +90,4 @@ const FieldSearch = ({
   )
 }
 
-export default FieldSearch
+export {FieldSearch}

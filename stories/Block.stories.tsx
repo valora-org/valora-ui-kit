@@ -1,5 +1,5 @@
 import { Story, Meta } from '@storybook/react/types-6-0'
-import Block, { BlockProps } from '../src/components/Block'
+import {Block, BlockProps } from '../src/components/Block'
 
 export default {
   title: 'Block',

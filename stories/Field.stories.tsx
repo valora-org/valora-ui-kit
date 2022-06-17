@@ -1,6 +1,6 @@
 import { Story, Meta } from '@storybook/react/types-6-0'
 
-import Field, { FieldProps } from '../src/components/Field'
+import { Field, FieldProps } from '../src/components/Field'
 
 export default {
   title: 'Field',

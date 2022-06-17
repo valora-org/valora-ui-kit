@@ -1,6 +1,6 @@
 import { Story, Meta } from '@storybook/react/types-6-0'
-import Modal, { ModalTypes } from '../src/components/Modal'
-import confirm from '../src/components/Modal/confirm'
+import  {Modal, ModalTypes } from '../src/components/Modal'
+import {confirm} from '../src/components/Modal/confirm'
 import { Wrapper } from '../src/components/Modal/styles'
 import { Button } from 'antd'
 

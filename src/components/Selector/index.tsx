@@ -57,4 +57,4 @@ const Selector = ({
   )
 }
 
-export default Selector
+export  {Selector}

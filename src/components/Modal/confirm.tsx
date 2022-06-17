@@ -2,7 +2,7 @@ import ReactDOM from 'react-dom'
 import React from 'react'
 import Modal, { ModalTypes } from '.'
 
-export default function confirm({
+function confirm({
   title,
   okText,
   cancelText,
@@ -60,3 +60,5 @@ export default function confirm({
 
   render(true)
 }
+
+export {confirm}

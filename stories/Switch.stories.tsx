@@ -1,5 +1,5 @@
 import { Story, Meta } from '@storybook/react/types-6-0'
-import Switch, { SwitchTypes } from '../src/components/Switch'
+import { Switch, SwitchTypes } from '../src/components/Switch'
 
 export default {
   title: 'Switch',

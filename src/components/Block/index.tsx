@@ -13,4 +13,4 @@ const Block = ({ label = '', children }: BlockProps) => (
   </S.Wrapper>
 )
 
-export default Block
+export {Block}

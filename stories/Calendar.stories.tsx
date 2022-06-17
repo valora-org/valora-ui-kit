@@ -1,5 +1,5 @@
 import { Story, Meta } from '@storybook/react/types-6-0'
-import Calendar, { CalendarTypes } from '../src/components/Calendar'
+import {Calendar, CalendarTypes } from '../src/components/Calendar'
 
 export default {
   title: 'Calendar',

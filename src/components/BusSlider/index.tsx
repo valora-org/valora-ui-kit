@@ -184,4 +184,4 @@ const BusSlider = ({
   )
 }
 
-export default BusSlider
+export {BusSlider}

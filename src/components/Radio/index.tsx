@@ -3,7 +3,6 @@ import {
   useRef,
   useEffect,
   useCallback,
-  memo
 } from 'react'
 import React from 'react'
 import * as S from './styles'
@@ -28,7 +27,7 @@ export type RadioProps = {
   captionMessage?: string
 } & InputHTMLAttributes<HTMLInputElement>
 
-const Radio2 = ({
+const Radio = ({
   label,
   onCheck,
   checked = false,
@@ -99,4 +98,4 @@ const Radio2 = ({
   )
 }
 
-export default memo(Radio2)
+export  {Radio}

@@ -271,4 +271,4 @@ const Table = ({
   )
 }
 
-export default Table
+export  {Table}

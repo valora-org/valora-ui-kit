@@ -1,5 +1,5 @@
 import { Story, Meta } from '@storybook/react/types-6-0'
-import Section, { SectionTypes } from '../src/components/Section'
+import { Section, SectionTypes } from '../src/components/Section'
 
 const args: SectionTypes = {
   title: 'Título',

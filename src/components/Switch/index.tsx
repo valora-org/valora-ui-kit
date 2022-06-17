@@ -54,4 +54,4 @@ const Switch = ({
   )
 }
 
-export default Switch
+export {Switch}

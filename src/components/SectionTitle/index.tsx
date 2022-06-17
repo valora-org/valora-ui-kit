@@ -18,4 +18,4 @@ const SectionTitle = ({
   )
 }
 
-export default SectionTitle
+export {SectionTitle}

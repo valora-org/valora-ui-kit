@@ -100,4 +100,4 @@ const Card = ({
   </S.Wrapper>
 )
 
-export default Card
+export {Card}

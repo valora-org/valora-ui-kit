@@ -1,6 +1,6 @@
 import { Modal as AntdModal } from 'antd'
 import React, { useEffect } from 'react'
-export { default as confirm } from './confirm'
+export { confirm } from './confirm'
 
 export type ModalTypes = {
   title?: string
@@ -94,4 +94,4 @@ const Modal = ({
   )
 }
 
-export default Modal
+export {Modal}

@@ -1,6 +1,6 @@
 import { Story, Meta } from '@storybook/react/types-6-0'
 import * as S from '../src/components/NumberCard/styles'
-import NumberCard, { NumberCardTypes } from '../src/components/NumberCard'
+import { NumberCard, NumberCardTypes } from '../src/components/NumberCard'
 
 export default {
   title: 'NumberCard',

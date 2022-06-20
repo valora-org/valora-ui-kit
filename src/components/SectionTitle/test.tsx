@@ -1,7 +1,7 @@
 import { cleanup } from '@testing-library/react'
 import { renderWithTheme } from '../../utils/tests'
 import React from 'react'
-import SectionTitle from '.'
+import {SectionTitle} from '.'
 
 afterEach(cleanup)
 describe('<SectionTitle />', () => {

@@ -2,7 +2,7 @@
 import React from 'react'
 import { cleanup } from '@testing-library/react'
 import '@testing-library/jest-dom/extend-expect'
-import Chart from '.'
+import {Chart} from '.'
 import { renderWithTheme } from '../../utils/tests'
 
 const data = {

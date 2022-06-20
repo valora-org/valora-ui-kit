@@ -4,32 +4,32 @@ import { Email } from '@styled-icons/material-outlined'
 import React from 'react'
 import { renderWithTheme } from '../../utils/tests'
 
-import TextField from '.'
+import {Field} from '.'
 
 const fn = jest.fn()
 
-describe('<TextField />', () => {
+describe('<Field />', () => {
   it('Renders without Label', () => {
-    renderWithTheme(<TextField />)
+    renderWithTheme(<Field />)
 
     expect(screen.queryByLabelText('Label')).not.toBeInTheDocument()
   })
 
   it('Renders with placeholder', () => {
-    renderWithTheme(<TextField placeholder="hey you" />)
+    renderWithTheme(<Field placeholder="hey you" />)
 
     expect(screen.getByPlaceholderText('hey you')).toBeInTheDocument()
   })
 
   it('Renders with Icon', () => {
-    renderWithTheme(<TextField icon={<Email data-testid="icon" />} />)
+    renderWithTheme(<Field icon={<Email data-testid="icon" />} />)
 
     expect(screen.getByTestId('icon')).toBeInTheDocument()
   })
 
   it('Renders with Icon on the right side', () => {
     renderWithTheme(
-      <TextField icon={<Email data-testid="icon" />} iconPosition="right" />
+      <Field icon={<Email data-testid="icon" />} iconPosition="right" />
     )
 
     expect(screen.getByTestId('icon').parentElement).toHaveStyle({ order: 1 })
@@ -38,12 +38,12 @@ describe('<TextField />', () => {
   it('Changes its value when typing', async () => {
     const onInput = jest.fn()
     renderWithTheme(
-      <TextField
+      <Field
         onData={onInput}
-        label="TextField"
+        label="Field"
         onChange={fn}
         onInput={fn}
-        id="TextField"
+        id="Field"
       />
     )
 
@@ -61,10 +61,10 @@ describe('<TextField />', () => {
   it('Does not changes its value when disabled', async () => {
     const onInput = jest.fn()
     renderWithTheme(
-      <TextField
+      <Field
         onData={onInput}
-        label="TextField"
-        id="TextField"
+        label="Field"
+        id="Field"
         disabled
         onChange={fn}
         onInput={fn}
@@ -85,9 +85,9 @@ describe('<TextField />', () => {
 
   it('Renders with error', () => {
     const { container } = renderWithTheme(
-      <TextField
+      <Field
         icon={<Email data-testid="icon" />}
-        label="TextField"
+        label="Field"
         error="Error message"
       />
     )
@@ -99,10 +99,10 @@ describe('<TextField />', () => {
 
   it('Is accessible by tab', () => {
     renderWithTheme(
-      <TextField label="TextField" id="TextField" data-testid="TextField" />
+      <Field label="Field" id="Field" data-testid="Field" />
     )
 
-    const input = screen.getByTestId('TextField')
+    const input = screen.getByTestId('Field')
     expect(document.body).toHaveFocus()
 
     userEvent.tab()
@@ -110,9 +110,9 @@ describe('<TextField />', () => {
   })
 
   it('Is not accessible by tab when disabled', () => {
-    renderWithTheme(<TextField label="TextField" id="TextField" disabled />)
+    renderWithTheme(<Field label="Field" id="Field" disabled />)
 
-    const input = screen.getByText('TextField')
+    const input = screen.getByText('Field')
     expect(document.body).toHaveFocus()
 
     userEvent.tab()
@@ -121,21 +121,21 @@ describe('<TextField />', () => {
 
   it('have initial value', () => {
     renderWithTheme(
-      <TextField label="TextField" id="TextField" initialValue="Text" />
+      <Field label="Field" id="Field" initialValue="Text" />
     )
   })
 
   it('have clear', () => {
     renderWithTheme(
-      <TextField label="TextField" id="TextField" clear="clear" onChange={fn} />
+      <Field label="Field" id="Field" clear="clear" onChange={fn} />
     )
   })
 
   it('have type money', () => {
     renderWithTheme(
-      <TextField
-        label="TextField"
-        id="TextField"
+      <Field
+        label="Field"
+        id="Field"
         formated
         typeOfFormat="money"
       />
@@ -144,9 +144,9 @@ describe('<TextField />', () => {
 
   it('have type percent', () => {
     renderWithTheme(
-      <TextField
-        label="TextField"
-        id="TextField"
+      <Field
+        label="Field"
+        id="Field"
         formated
         typeOfFormat="percent"
       />
@@ -154,18 +154,18 @@ describe('<TextField />', () => {
   })
 
   it('have formated', () => {
-    renderWithTheme(<TextField label="TextField" id="TextField" formated />)
+    renderWithTheme(<Field label="Field" id="Field" formated />)
   })
 
   it('have and icon password', () => {
     renderWithTheme(
-      <TextField label="TextField" id="TextField" type="password" />
+      <Field label="Field" id="Field" type="password" />
     )
   })
 
   it('have and icon password and click eye', async () => {
     const { getByTestId } = renderWithTheme(
-      <TextField label="TextField" id="TextField" type="password" />
+      <Field label="Field" id="Field" type="password" />
     )
 
     userEvent.click(getByTestId('vl-eye-icon'))
@@ -174,9 +174,9 @@ describe('<TextField />', () => {
 
   it('have example ', () => {
     renderWithTheme(
-      <TextField
-        label="TextField"
-        id="TextField"
+      <Field
+        label="Field"
+        id="Field"
         example="example"
         titleDirection="column"
       />
@@ -185,9 +185,9 @@ describe('<TextField />', () => {
 
   it('have show lenght', () => {
     renderWithTheme(
-      <TextField
-        label="TextField"
-        id="TextField"
+      <Field
+        label="Field"
+        id="Field"
         example="example"
         titleDirection="column"
         showLength
@@ -197,9 +197,9 @@ describe('<TextField />', () => {
 
   it('have caption message', () => {
     renderWithTheme(
-      <TextField
-        label="TextField"
-        id="TextField"
+      <Field
+        label="Field"
+        id="Field"
         example="example"
         titleDirection="column"
         captionMessage="caption"
@@ -209,9 +209,9 @@ describe('<TextField />', () => {
 
   it('have icon position right ', () => {
     renderWithTheme(
-      <TextField
-        label="TextField"
-        id="TextField"
+      <Field
+        label="Field"
+        id="Field"
         example="example"
         titleDirection="column"
         icon={<span />}

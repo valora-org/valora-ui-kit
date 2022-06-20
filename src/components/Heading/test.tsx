@@ -1,7 +1,7 @@
 import { screen } from '@testing-library/react'
 import { renderWithTheme } from '../../utils/tests'
 import React from 'react'
-import Heading from '.'
+import {Heading} from '.'
 
 describe('<Heading />', () => {
   it('should render a white heading by default', () => {

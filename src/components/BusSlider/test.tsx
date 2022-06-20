@@ -2,7 +2,7 @@ import React from 'react'
 import { cleanup } from '@testing-library/react'
 import { renderWithTheme } from '../../utils/tests'
 
-import BusSlider from '.'
+import {BusSlider} from '.'
 
 // src/components/BusSlider/test.tsx
 

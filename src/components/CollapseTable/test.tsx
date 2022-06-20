@@ -1,6 +1,6 @@
 import { cleanup } from '@testing-library/react'
 import { fakeData2 } from './fakeData'
-import CollapseTable from '.'
+import {CollapseTable} from '.'
 import React from 'react'
 import { renderWithTheme } from '../../utils/tests'
 import userEvent from '@testing-library/user-event'

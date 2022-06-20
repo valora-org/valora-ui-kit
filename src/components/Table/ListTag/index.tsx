@@ -1,7 +1,7 @@
 import * as S from './styles'
 import React from 'react'
 export * as Styles from './styles'
-import VlTooltip from '../../Tooltip'
+import {Tooltip} from '../../Tooltip'
 
 export type ListTagTypes = {
   label: string | React.ReactNode
@@ -20,11 +20,11 @@ const ListTag = ({
 }: ListTagTypes) => {
   if (tooltipLabel) {
     return (
-      <VlTooltip breakLine={tooltipBreakLine} label={tooltipLabel}>
+      <Tooltip breakLine={tooltipBreakLine} label={tooltipLabel}>
         <S.Wrapper rounded={rounded} color={color}>
           {label}
         </S.Wrapper>
-      </VlTooltip>
+      </Tooltip>
     )
   }
 

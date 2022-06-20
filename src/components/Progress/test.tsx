@@ -2,7 +2,7 @@ import { cleanup } from '@testing-library/react'
 import { renderWithTheme } from '../../utils/tests'
 import React from 'react'
 
-import Progress from '.'
+import {Progress} from '.'
 afterEach(cleanup)
 describe('<Progress />', () => {
   it('should render the component', () => {

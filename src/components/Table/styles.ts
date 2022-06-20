@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components'
 import { Table as AntdTable } from 'antd'
-import { default as ReactLoading } from '../Loading'
+import { Loading as VLLoading } from '../Loading'
 import { ConfigProvider } from 'antd'
 import ptBR from 'antd/lib/locale/pt_BR'
 import { Edit } from '@styled-icons/feather/Edit'
@@ -247,7 +247,7 @@ export const Table: typeof AntdTable = styled(AntdTable)`
   position: relative;
 `
 
-export const Loading = styled(ReactLoading)``
+export const Loading = styled(VLLoading)``
 
 export const BtnWrapper = styled.div`
   display: flex;

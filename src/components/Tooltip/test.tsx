@@ -1,15 +1,15 @@
 import { cleanup } from '@testing-library/react'
 import { renderWithTheme } from '../../utils/tests'
 import React from 'react'
-import VlTooltip from '.'
+import {Tooltip} from '.'
 
 afterEach(cleanup)
 describe('<VlTooltip />', () => {
   it('should render the component', () => {
     const { container } = renderWithTheme(
-      <VlTooltip label="VlTooltip">
+      <Tooltip label="Tooltip">
         <span />
-      </VlTooltip>
+      </Tooltip>
     )
 
     expect(container).toBeInTheDocument()

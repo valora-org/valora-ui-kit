@@ -1,6 +1,6 @@
 import { renderWithTheme } from '../../utils/tests'
 import React from 'react'
-import Grid, { field, result } from '.'
+import  {Grid, field, result } from '.'
 
 describe('<Grid />', () => {
   const props = {

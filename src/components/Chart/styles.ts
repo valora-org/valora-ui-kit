@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import { GgCircle } from '@styled-icons/fa-brands/'
-import Heading from '../Heading'
+import {Heading} from '../Heading'
 
 type Color = {
   color: string

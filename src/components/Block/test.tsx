@@ -2,7 +2,7 @@ import theme from '../../styles/theme'
 import React from 'react'
 import { screen } from '@testing-library/react'
 import { renderWithTheme } from '../../utils/tests'
-import Block from '.'
+import {Block} from '.'
 
 // src/components/Block/test.tsx
 
